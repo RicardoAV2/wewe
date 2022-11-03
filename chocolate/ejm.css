@@ -1,0 +1,62 @@
+body{
+    margin: 10PX;
+    background-color: black;
+    color: rgb(219, 219, 223);
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,5fr);
+    grid-gap: 2em;
+    grid-template-rows: minmax(30px auto);
+    padding: 80px;
+}
+.contenedor div{
+    background-color: rgb(219, 207, 207);
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    font-size: 18px;
+}
+.contenedor div:hover{
+    border: 10px solid rgb(71, 54, 6);
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 24px;
+}
+.cont{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1,5fr);
+    grid-gap: 2em;
+    grid-template-rows: minmax(30px auto);
+    padding: 80px;
+    
+
+}
+.con2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,5fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(30px auto);
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 1em;
+
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.menu{
+    float: left;
+    line-height: 70px;
+    color: burlywood;
+    font-size: 25px;
+    cursor: pointer;
+}
